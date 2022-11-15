@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{8E074144-4C9E-773D-115C-F38D9EE91CF8}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "StormTechDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AlphaCoreForUnreal"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AlphaCoreForUnreal",
+			"Enabled": true
+		}
+	]
+}
