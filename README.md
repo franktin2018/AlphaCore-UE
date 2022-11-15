@@ -15,5 +15,5 @@
 3. 工程文件中Storm Demo的内容在StormDemo1关卡下。
 4. AxUStormActor中暴露了渲染相关参数，解算参数列表存储于AlphaCoreResource\StormCache\task.json中。
     <p align ="left">
-        <img src="./Misc/details.png" alt="drawing" width="400"/>
+        <img src="./Misc/Details.png" alt="drawing" width="400"/>
     </p>
