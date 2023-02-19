@@ -1,19 +1,23 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{8E074144-4C9E-773D-115C-F38D9EE91CF8}",
+	"EngineAssociation": "{9DF222E9-4A1B-5689-DCFC-54B5B6E61D96}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "StormTechDemo",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"AlphaCoreForUnreal"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
 		{
 			"Name": "AlphaCoreForUnreal",
 			"Enabled": true
